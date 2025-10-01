@@ -25,6 +25,46 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+********************************************************************************
+
+
+
+## 🚀 Como rodar o projeto localmente
+
+```bash
+# 1. Clone o repositório
+git clone https://github.com/Biel29Souza/BackEnd-Biblioteca.PI-V.git
+cd BackEnd-Biblioteca.PI-V
+
+# 2. Instale as dependências
+npm install
+
+# 3. Crie o arquivo .env
+cp .env.example .env
+# (Edite o arquivo com os dados do seu banco de dados PostgreSQL)
+
+# 4. Gere o client do Prisma
+npx prisma generate
+
+# 5. Rode as migrations
+npx prisma migrate dev
+
+# 6. (Opcional) Popule o banco com dados fictícios
+npm run seed
+
+# 7. Inicie o servidor em modo desenvolvimento
+npm run start:dev
+
+
+
+********************************************************************************
+
+
+
+
+
+
+
 ## Project setup
 
 ```bash
