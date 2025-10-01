@@ -49,10 +49,7 @@ npx prisma generate
 # 5. Rode as migrations
 npx prisma migrate dev
 
-# 6. (Opcional) Popule o banco com dados fictícios
-npm run seed
-
-# 7. Inicie o servidor em modo desenvolvimento
+# 6. Inicie o servidor em modo desenvolvimento
 npm run start:dev
 
 
