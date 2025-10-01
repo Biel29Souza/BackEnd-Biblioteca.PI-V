@@ -42,6 +42,8 @@ npm install
 # 3. Crie o arquivo .env
 cp .env.example .env
 # (Edite o arquivo com os dados do seu banco de dados PostgreSQL)
+# DATABASE_URL="postgresql://admin:admin@localhost:5432/homedb"
+
 
 # 4. Gere o client do Prisma
 npx prisma generate
